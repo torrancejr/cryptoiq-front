@@ -7,6 +7,7 @@ import { AppStoreLink } from '@/components/AppStoreLink'
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { PhoneFrame } from '@/components/PhoneFrame'
+import { Features } from '@/components/Features'
 import logoBbc from '@/images/logos/bbc.svg'
 import logoCbs from '@/images/logos/cbs.svg'
 import logoCnn from '@/images/logos/cnn.svg'
@@ -105,12 +106,10 @@ export function Hero() {
         <div className="lg:grid lg:grid-cols-12 lg:gap-x-8 lg:gap-y-20">
           <div className="relative z-10 mx-auto max-w-2xl lg:col-span-7 lg:max-w-none lg:pt-6 xl:col-span-6">
             <h1 className="text-4xl font-medium tracking-tight text-gray-900">
-              Invest at the perfect time.
+              The Crypto IQ
             </h1>
             <p className="mt-6 text-lg text-gray-600">
-              By leveraging insights from our network of industry insiders,
-              you’ll know exactly when to buy to maximize profit, and exactly
-              when to sell to avoid painful losses.
+            Trade the trend before it trends. Precision data. Real signals. Zero guesswork.
             </p>
             <div className="mt-8 flex flex-wrap gap-x-6 gap-y-4">
               <AppStoreLink />
@@ -126,9 +125,9 @@ export function Hero() {
           <div className="relative mt-10 sm:mt-20 lg:col-span-5 lg:row-span-2 lg:mt-0 xl:col-span-6">
             <BackgroundIllustration className="absolute top-4 left-1/2 h-[1026px] w-[1026px] -translate-x-1/3 [mask-image:linear-gradient(to_bottom,white_20%,transparent_75%)] stroke-gray-300/70 sm:top-16 sm:-translate-x-1/2 lg:-top-16 lg:ml-12 xl:-top-14 xl:ml-0" />
             <div className="-mx-4 h-[448px] [mask-image:linear-gradient(to_bottom,white_60%,transparent)] px-9 sm:mx-0 lg:absolute lg:-inset-x-10 lg:-top-10 lg:-bottom-20 lg:h-auto lg:px-0 lg:pt-10 xl:-bottom-32">
-              <PhoneFrame className="mx-auto max-w-[366px]" priority>
-                <AppDemo />
-              </PhoneFrame>
+              <div className="mx-auto max-w-[366px]">
+                <Features />
+              </div>
             </div>
           </div>
           <div className="relative -mt-4 lg:col-span-7 lg:mt-0 xl:col-span-6">

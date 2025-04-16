@@ -28,14 +28,14 @@ const features = [
   {
     name: 'Invite friends for better returns',
     description:
-      'For every friend you invite to Pocket, you get insider notifications 5 seconds sooner. And it’s 10 seconds if you invite an insider.',
+      'For every friend you invite to Crypto IQ, you get insider notifications 5 seconds sooner. And it\'s 10 seconds if you invite an insider.',
     icon: DeviceUserIcon,
     screen: InviteScreen,
   },
   {
     name: 'Notifications on stock dips',
     description:
-      'Get a push notification every time we find out something that’s going to lower the share price on your holdings so you can sell before the information hits the public markets.',
+      'Get a push notification every time we find out something that\'s going to lower the share price on your holdings so you can sell before the information hits the public markets.',
     icon: DeviceNotificationIcon,
     screen: StocksScreen,
   },
@@ -562,9 +562,9 @@ export function PrimaryFeatures() {
             Every feature you need to win. Try it for yourself.
           </h2>
           <p className="mt-2 text-lg text-gray-400">
-            Pocket was built for investors like you who play by their own rules
-            and aren’t going to let SEC regulations get in the way of their
-            dreams. If other investing tools are afraid to build it, Pocket has
+            Crypto IQ was built for investors like you who play by their own rules
+            and aren't going to let SEC regulations get in the way of their
+            dreams. If other investing tools are afraid to build it, Crypto IQ has
             it.
           </p>
         </div>

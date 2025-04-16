@@ -6,7 +6,7 @@ const features = [
   {
     name: 'Invest any amount',
     description:
-      'Whether it’s $1 or $1,000,000, we can put your money to work for you.',
+      'Whether it\'s $1 or $1,000,000, we can put your money to work for you.',
     icon: DeviceArrowIcon,
   },
   {
@@ -24,13 +24,13 @@ const features = [
   {
     name: 'Profit from your network',
     description:
-      'Invite new insiders to get tips faster and beat even other Pocket users.',
+      'Invite new insiders to get tips faster and beat even other Crypto IQ users.',
     icon: DeviceListIcon,
   },
   {
     name: 'Encrypted and anonymized',
     description:
-      'Cutting-edge security technology that even the NSA doesn’t know about keeps you hidden.',
+      'Cutting-edge security technology that even the NSA doesn\'t know about keeps you hidden.',
     icon: DeviceLockIcon,
   },
   {
@@ -200,7 +200,7 @@ export function SecondaryFeatures() {
           </h2>
           <p className="mt-2 text-lg text-gray-600">
             With typical market returns, you have to start young to secure your
-            future. With Pocket, it’s never too late to build your nest egg.
+            future. With Crypto IQ, it's never too late to build your nest egg.
           </p>
         </div>
         <ul
